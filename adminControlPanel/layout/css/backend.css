@@ -1,0 +1,304 @@
+/*Start Main Rules*/
+body
+{
+	background-color: #f4f4f4;
+}
+
+/*End Main Rules*/
+
+
+/*Start Login Form */
+.login
+{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login input
+{
+	margin-bottom: 5px;
+}
+
+.login .btn
+{
+	background-color: #008dde;
+} 
+
+.login h4
+{
+	color: #888;
+}
+/*End Of Form Styling*/
+
+
+
+
+/*Start Dashboard Page */
+.statistics-parent .statistics
+{
+	border-radius: 10px;
+	color: #EEEEEE;
+	font-size: 15px;
+	box-shadow: 1px 2px 3px;
+	
+}
+
+.statistics-parent .statistics a
+{
+	color: #EEEEEE;	
+}
+
+.statistics-parent .statistics a:hover
+{
+	text-decoration:none;	
+}
+
+
+.statistics-parent .stats-members
+{
+	background-color: #F44336;	
+	
+}
+
+.statistics-parent .stats-pending
+{
+	background-color: #2196F3;
+	
+	
+}
+
+.statistics-parent .stats-items
+{
+	background-color: #8BC34A;
+	
+
+}
+
+.statistics-parent .stats-comments
+{
+	background-color: #FF5722;
+	
+	
+}
+
+.statistics-parent .statistics span
+{
+	display: block;
+	font-size: 50px;
+
+}
+
+.parent-latest
+{
+	margin-top: 20px;
+
+}
+
+/*End Dashboard Page*/
+
+
+
+
+
+
+/*Start Styling Members Page*/
+
+h1
+{
+	font-size: 55px;
+	color: #666;
+	font-weight: bold;
+	margin:40px 0;
+}
+
+.main-table tr:first-child td{
+	background-color: #333;
+	color: #fff;
+}
+
+.activate
+{
+	margin-left: 5px;
+}
+
+
+/*End Styling Members Page*/
+
+
+/*Start Styling Categories Page*/
+
+
+.radios:not(.form-control){
+
+}
+
+/*End Styling Categories Page*/
+
+
+
+/*Start Categories Page*/
+
+.categories .panel-body 
+{
+	padding: 0;
+
+}
+
+.categories .category
+{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+
+.categories hr
+{
+	margin-top: 5px;
+	margin-bottom:5px;
+
+}
+
+
+.panel-heading-hr{
+	margin-bottom: 0px
+}
+
+.category-panel-heading{
+	padding-bottom: 0px;
+}
+
+.panel-heading{
+	position:relative;
+
+}
+
+.add-category{
+	
+	position: absolute;
+    right: 15px;
+    top: 10px;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+
+
+.categories .category:hover
+{
+	background-color: #EEE;
+
+}
+
+.categories .category .hidden-btns
+{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin-right: 4px;
+	position: absolute;
+	top: 5px;
+    right: -140px;
+
+} 
+
+.categories .category:hover .hidden-btns
+{
+	right: 1px;
+}
+
+
+
+.categories .category .hidden-btns a
+{
+	margin-right: 4px;
+
+}  
+
+
+.categories .category h3
+{
+	margin:0 0 10px;
+
+}
+
+.categories .category:last-of-type ~ hr
+{
+	display: none;
+
+}
+
+.categories .category .vis,.comm,.ad
+{
+	color: #FFF;   
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.categories .category .vis
+{
+	background-color: #607D8B;
+}
+
+.categories .category .comm
+{
+	background-color: #F44336;	
+}
+
+.categories .category .ad
+{
+	background-color: #FF5722;
+}
+
+
+
+
+
+
+/*.categories .category .vis
+{
+	color: #FFF;
+    background-color: #607D8B;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.categories .category .comm
+{
+	color: #FFF;
+    background-color: #F44336;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.categories .category .ad
+{
+    color: #FFF;
+    background-color: #FF5722;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}*/
+
+
+
+
+/*End Cateogries Page*/
+
+
+
+
+
